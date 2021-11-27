@@ -63,7 +63,7 @@ const App = () => {
         renderItem={renderItem}
         data={DATA}
         loop
-        autoplay
+        autoplay={false}
       />
     </View>
   );
@@ -80,14 +80,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width,
+    backgroundColor: 'red'
   },
   cardWrapper: {
     borderRadius: 8,
     overflow: 'hidden',
+    backgroundColor:'yellow'
   },
   card: {
-    width: width * 0.9,
-    height: width * 0.5,
+    width: width * 0.3,
+    height: width * 0.2,
   },
   cornerLabel: {
     position: 'absolute',

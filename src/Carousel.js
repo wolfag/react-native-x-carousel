@@ -221,7 +221,7 @@ export default class Carousel extends Component {
           // the issue https://github.com/facebook/react-native/issues/21718
           // onMomentumScrollEnd={this.onMomentumScrollEnd}
           onScrollEndDrag={this.onScrollEndDrag}
-          scrollEventThrottle={16}
+          // scrollEventThrottle={16}
           onScroll={this.onScroll}
           onContentSizeChange={this.onContentSizeChange}
         >
